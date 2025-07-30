@@ -17,7 +17,7 @@ class ColorViewModel: ObservableObject {
     init(networkMonitor: NetworkMonitor) {
         self.colorStore = ColorStore()
         self.networkMonitor = networkMonitor
-        loadColors() // Load colors at initialization
+        loadColors() 
     }
     
     func loadColors() {
